@@ -1,0 +1,58 @@
+# dependace-of-tau-particle-lifetime-and-mass-anomalies
+Lifetime scaling test
+Lifetime scaling simulation results showed:
+
+[Special Relativity (SR)]
+mean(tau_lab/gamma) = 2.903e-13 s
+std(tau_lab/gamma) = 5.135e-29 s
+relative spread = 1.769e-16
+[Lorentz Violation (LV)]
+mean(tau_lab/gamma) = 2.903e-13 s
+std(tau_lab/gamma) = 8.488e-18 s
+relative spread = 2.924e-05
+[Planck-scale / QG]
+mean(tau_lab/gamma) = 2.903e-13 s (results are different; velocity is not constant due to Lorentz violation)
+std(tau_lab/gamma) = 5.135e-29 s (duration) (how wide the anomaly is, normally 0) ("distance from the center")
+relative spread = 1.769e-16 (how wide the error is relative to the value) (how accurate it is relative to the measurement)
+The relative spread (1.769e-16) is very small, practically in line with Einstein's theory. This is the result after calculations without the CPT symmetry violation factor.
+The relative spread (relative spread = 2.924e-05) is 11 times greater than in the SR model example. This result suggests that symmetry may be violated, but it requires confirmation with Bootstrap Toy Monte Carlo that it is not just noise. This is the result after calculations with the CPT symmetry violation factor.
+
+The horizontal axis shows the energy in [MeV]
+The vertical axis shows the lifetime of the particle in its rest frame.
+The bottom line overlaps three lines: SR, QR, and the expected line T_0.
+The orange line deviates significantly from SR, QG, and the predicted line.
+
+The results suggest an anomaly that needs to be confirmed with Toy MC.
+===== A1.2. Nonlinear anomaly fit (dimensionless) =====
+a = 6.000e-05 ± 1.893e-07 (linear LV)
+b = 1.050e-04 ± 2.983e-07 (quadratic QG)
+mean = 1.429e-06
+std = 2.000e-02
+skew = -4.762e-03
+jacket. = -2.223e-02
+The LV and QG numbers should be equal to 0 in the traditional Einstein SR. The QG result is a larger anomaly due to its quadratic nature. However, this requires further confirmation with Bootstrap Toy Monte Carlo.
+
+kurt. = -2.223e-02 means that the results are not primarily clustered near the mean.
+
+A high std indicates that tau particles have very diverse lifetimes.
+
+mean indicates how inconsistent the results are with Einstein's results.
+
+a - Symmetry breaking factor when a tau particle hits the background universe, the more this changes the lifetime.
+
+b - Modification factor of the second-order dispersion relation, nonlinear (quadratic) Lorentz symmetry violation, Plank scale effects - it is much higher at higher energies (scales with the square of the particle energy).
+x-axis: residual r= (tau - tau_SR)/tau_SR
+y-axis: error rate
+The data follow a Gaussian bell-shaped symmetry, which is expected. The graph indicates no violation of SR. However, this was a clean version without prior data.
+Here's a linearity test plot based on the previous data, showing the anomalies. The blue line corresponds to the Fit QG trend.
+The red line corresponds to the Fit LVrend trend.
+The dashed purple line corresponds to the SR trend.
+The pink dots correspond to single LV events (i.e., linear Lorentz violation).
+The blue dots correspond to single QG events (i.e., nonlinear (quadratic) Lorentz symmetry violation).
+The data represented by dots are single data points that contain statistical noise and therefore deviate from the SR trend.
+The data deviate from the SR trend, as can be seen on the purple (LV) and blue (QG) lines relative to the SR trend, suggesting an anomaly.
+===== A2. Residual statistics =====
+
+Histogram
+a = 6.000e-05 ± 1.893e-07 (linear LV)
+b = 1.050e-04 ± 2.983e-07 (quadratic QG)
