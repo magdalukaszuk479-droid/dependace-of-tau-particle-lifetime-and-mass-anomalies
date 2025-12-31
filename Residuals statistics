@@ -1,0 +1,23 @@
+mean = 1.429e-06
+std = 2.000e-02
+skew = -4.762e-03
+kurt. = -2.223e-02
+
+The a LV data indicate a linear anomaly. In a co SR universe, it would work perfectly with Einstein's assumptions, so it would be 0.
+The b QG data indicate a quadratic anomaly. In a co SR universe, it would work perfectly with Einstein's assumptions, so it would be 0, just like the other data.
+
+To check if the MEAN was correct, I calculated the following in Python:
+
+SEM = (std) / √N
+SEM = Standard Error of the Mean
+std - standard deviation (a measure of error distribution)
+N - number of data points
+After calculating in Python, the following was maintained:
+
+Number of data points (N): 10,000
+Standard Deviation (std): 0.02
+Standard Error of the Mean (SEM): 0.0002
+The SEM result means that the data are precise enough to be considered.
+The result: mean = 1.429e-06. The mean residual value indicates that the model is unbiased, meaning there is no noise, meaning there is no overestimation or underestimation.
+
+Residual - a measure of how much the experimental data deviate from the theoretical model:
