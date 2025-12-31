@@ -1,0 +1,28 @@
+a = 6.000e-05 ± 1.893e-07   (linear LV)
+b = 1.050e-04 ± 2.983e-07   (quadratic QG)
+mean  = 1.429e-06
+std   = 2.000e-02
+skew  = -4.762e-03
+kurt. = -2.223e-02
+The LV and QG numbers should be equal to 0 in the traditional Einstein SR. The QG result is a larger anomaly due to its quadratic nature. However, this requires further confirmation with Bootstrap Toy Monte Carlo.
+
+kurt. = -2.223e-02 means that the results are not primarily clustered near the mean.
+
+A high std indicates that tau stars have very diverse lifetimes.
+
+mean indicates how much the results are inconsistent with Einstein's results.
+
+a - the symmetry breaking factor when the tau hits the background universe, the more this changes the lifetime. b - Second-order modification factor of the dispersion relation, nonlinear (quadratic) Lorentz symmetry violation, Plank scale effects - much higher at higher energy (scales with the square of the particle energy)
+
+x-axis residual r = (tau - tau_SR)/tau_SR
+y-axis: error magnitude
+The data follow a Gaussian bell-shaped symmetry, which is expected.
+The graph indicates no SR violation. However, this was a pure version without prior data.
+Oto wykres testu liniowości, na podstawie poprzednich danych pokazujący anomalie. 
+linia niebieska odpowiada Fit QG trend 
+linia czerwona odpowiada Fit LVrend
+linia fioletowa przerywana odpowiada SR
+kropki różowe odpowiadają pojedynczym zdarzeniom LV (czyli odpowiada to liniowe naruszenie Lorentza
+kropki niebieskie odpowiadają pojedynczym zdarzeniem QG (, nieliniowe (kwadratowe)  naruszenie symetrii Lorentza,).
+Dane przedstawione za pomocą kropek, są to pojedyncze dane, które zawierają szum statystyczny, dlatego odbiegają od linii SR.
+Dane odbiegają od SR co możemy na linii fioletowej (LV)i niebieskiej  i (QG) w stosunku do SR, co sugeruje anomalię.
