@@ -1,0 +1,12 @@
+CPT-odd asymmetric:
+Mean delta  = 1.950e-20 s 
+Max |delta| = 1.451e-17 s
+Fraction of positive deltas = 50.10%
+Fraction of negative deltas = 49.90%
+
+Mean delta to odchylenie od średniej wartości życia. Jednak liczba 1.950e-20 s  to zbyt mało by wyznaczyć eksperymentalnie, skoro minimalna  wartość to wyznaczenia to górny limit to to 2*10^15 s, czyli wartość wyznaczona w symulacji mean delta jest 100.000 razy mniejsza niż da się ja fizycznie wyznaczyć.
+Max |delta| to sygnał który jest największy możliwie z całej puli danych. Jest to mimo to nadal nie to zmierzenia eksperymentalnie (1.451e-17 s <2*10^15 s. Jednak pomimo tego, wyniki symulacji pokazują, że można wykryć teoretyczne naruszenie CPT-even jeśli jest odpowiednia wartość Max |delta|- 1.451e-17 s.
+Możemy obliczyć a
+W symulacji przyjęty współczynnik sprzężenia cpt_odd_coeff = 5e-7
+Wzór do obliczenia a: tau_cpt_odd = tau_lab * (1 + signs * cpt_odd_coeff * gamma)
+
