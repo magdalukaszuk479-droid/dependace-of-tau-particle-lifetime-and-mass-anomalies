@@ -1,0 +1,12 @@
+Lorentz's Law: τlab​=τ0​γ(1+δ(γ,p​,n^))
+cpt
+c-charge - exchange of particles for antiparticles
+p-parity - spatial reflection
+t-time - time reversal
+Simulation Results:
+Simulation 1:
+CPT-even: mean delta = 8.073e-17 s, max delta = 2.903e-16 s
+CPT-odd: mean delta = 5.376e-18 s, max delta = 1.451e-17 s
+In a typical Standard Model, both numbers should be 0, but they are expected from the Standard Model (ME), which allows for violation of the Lorentz rule.
+
+The graph demonstrates that the effects of Lorentz violation are energy-dependent.
