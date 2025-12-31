@@ -1,0 +1,27 @@
+===== Energy-binned CPT-even / CPT-odd summary =====
+
+E ≈ 7.44e+02 MeV | N = 115895.0 | CPT-even: mean = 2.666e-10 s, max = 2.197e-09 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 2.75e+03 MeV | N = 25576.0 | CPT-even: mean = 1.849e-12 s, max = 4.955e-12 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 4.35e+03 MeV | N = 19945.0 | CPT-even: mean = 5.979e-12 s, max = 1.238e-11 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 6.28e+03 MeV | N = 5603.0 | CPT-even: mean = 1.309e-17 s, max = 1.908e-17 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 8.06e+03 MeV | N = 5412.0 | CPT-even: mean = 2.737e-17 s, max = 3.694e-17 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 9.83e+03 MeV | N = 5650.0 | CPT-even: mean = 4.949e-17 s, max = 6.343e-17 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 1.16e+04 MeV | N = 5406.0 | CPT-even: mean = 8.088e-17 s, max = 1.003e-16 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 1.34e+04 MeV | N = 5445.0 | CPT-even: mean = 1.239e-16 s, max = 1.493e-16 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 1.51e+04 MeV | N = 5521.0 | CPT-even: mean = 1.791e-16 s, max = 2.120e-16 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+E ≈ 1.69e+04 MeV | N = 5546.0 | CPT-even: mean = 2.497e-16 s, max = 2.903e-16 s | CPT-odd: mean = 0.000e+00 s, max = 0.000e+00 s | Fraction + = 0.00%, - = 0.00%
+
+===== Interpretation =====
+===== Interpretation =====
+E-energy
+N- sample size - the number of tau particles that were simulated in the interval (the larger the sample size, the smaller the statistical error)
+Fraction - symmetry fraction
+mean - average
+max - maximum
+
+- CPT-even corrections (gamma^2 scaling) are measurable on a scale of 1e-17 - 1e-16 s for tau
+- CPT-odd effects are practically zero in the simulation → no asymmetry in this model
+- No monotonic CPT-odd trend → no Lorentz Violation signal in this channel
+- The CPT-even gradient shows that the higher the energy, the potentially larger the SME effects (gamma^2 scaling)
+CPT-even contains anomalies that are inconsistent with the Standard Model, but expected in the SME. By establishing an upper limit, we know where the limit of their possible anomalies lies. CPT-odd does not show any anomalies. However, the detection limit for CPT-even tau anomalies is currently 10^15 s. Simulation results have shown that they are small (100 times smaller than they can be detected). In CPT-even, the high-energy anomaly (6.28 GeV–16.9 M) is small.
+In CPT-even, the low-energy anomaly (744 MeV–4.35 GeV) is enormous (10^1–10^12). This requires further analysis.
