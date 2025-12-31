@@ -21,3 +21,49 @@ The SEM result means that the data are precise enough to be considered.
 The result: mean = 1.429e-06. The mean residual value indicates that the model is unbiased, meaning there is no noise, meaning there is no overestimation or underestimation.
 
 Residual - a measure of how much the experimental data deviate from the theoretical model:
+Mean = 0, which indicates perfect agreement with Einstein's theory.
+Mean > 0, a lifetime longer than predicted by Einstein.
+Mean < 0, a lifetime shorter than predicted by Einstein.
+Mean = 1.429e-06, which means:
+Std = 2.000e-02 (standard deviation - the level of spread in the data).
+The result, Skew = -4.762e-03, indicates that the distribution is almost perfectly symmetrical (if it were perfect, it would be equal to 0).
+Kurt = -2.223e-02, a measure of the flatness of the distribution.
+
+The graph shows the distribution of residuals, i.e., the differences between what was predicted based on the SME and Einstein's theory.
+The horizontal axis (Residual r = tau-tau_SR)/tau_SR shows how often the residual occurred during the simulation.
+The vertical axis (counts) shows the anomaly value for a given measurement.
+The data in the plot are bell-shaped, as expected in Monte Carlo simulations.
+
+===== A2. Residual Statistics (2025 Analysis) =====
+Mean = 5.536e-20
+Std = 6.837e-18
+SEM = 2.162e-20
+Skew = -0.0035
+Kurtosis = -0.5076
+N = 100000
+
+The results do not show deviations from Einstein's predictions because the code did not account for linear Lorentz violation and nonlinear (quadratic) Lorentz symmetry violation. This is important because it provides a foundation for ensuring the code works, and further testing can be performed based on this.
+
+===== HYPOTHESIS TESTS =====
+T-test p-value: 1.0449e-02
+Normality test p-value: 0.0000e+00
+
+[RESULT]: A statistically significant deviation from the Gaussian distribution was detected.
+The data confirm the presence of an anomaly (LIV/CPT-odd).
+
+The anomaly was confirmed.
+The anomaly was not previously confirmed because the first measurement error was 100 times greater than the mean.
+
+Comparison:
+
+1st measurement
+2nd measurement
+std: 0.02
+std: 6.837*10^-18
+0.0002(2*10^-4)
+2.162*10^-20
+Kurtosis
+Normality test p-value
+
+In set 1, the error was 100 times greater than the signal. In set 2, the error was 2.5 times smaller than the signal.
+Normality test p value confirmed that the results were random noise, which Kurtosis was unable to confirm.
